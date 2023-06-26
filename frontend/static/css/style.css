@@ -1,0 +1,119 @@
+.btn1{
+    margin: auto;
+    flex: auto;
+    text-align: left;
+    padding-left:8%;
+    margin-top: 1em;
+}
+
+.titulo {
+    padding: 35px ;
+    color: #212F3C;
+    font-size: 47px;
+}
+
+
+.body_index{
+    display: grid;
+    place-items: center;
+    background-color: #566573;
+    font-family: Consolas, 'PT Sans', Verdana, sans-serif;      
+}
+
+.lista{ 
+
+    list-style: none;
+    font-size: 24px;
+}
+.lista a{
+    text-decoration: none;
+}
+
+.lista a li {
+    
+    width: 200px;
+    margin: 25px;
+    color: white;
+    padding: 10px;
+    background: #3498DB ;
+    border: 2px solid #1F618D;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 3px, rgba(0, 0, 0, 0.3) 0px 4px 7px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+/* From uiverse.io by @adamgiebl */
+.enlace {
+    font-size: 22px;
+    color: white;
+    padding: 5px;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    overflow: hidden;
+    transition: all 0.2s;
+
+   }
+   
+   .enlace span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.5s ease-in-out;
+   }
+   
+   .enlace i {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.5s ease-in-out;
+   }
+   
+   .enlace:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
+   
+   .enlace:hover i {
+    transform: translateX(3.8rem)  scale(1.4);
+   }
+   
+   .enlace:hover span {
+    transform: translateX(10em);
+   }
+   
+   .lista :hover li{
+    background-color:  #16A085 ;
+    color: #ffffff;
+   }
+
+   .enlace:active {
+    transform: scale(0.75);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }}
+
+    .myCard {
+
+        margin-top: 6rem;
+      border-radius: 30px;
+      background: #ffffff;
+      box-shadow: 15px 15px 30px #3d4650,
+      -15px -15px 30px #3a4249;     
+      align-items: center;
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+       }
+
